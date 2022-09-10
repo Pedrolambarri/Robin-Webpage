@@ -101,11 +101,10 @@ aside{
 }
 
 .h2-aside{
-  color: white;
+  color:black;
   text-align: center;
   height: 100px;
   font-style: italic;
-  background-color: black;
   border-radius: 10px;
   padding-top: 30px;
 }
@@ -124,6 +123,14 @@ section{
 
 #more{
   display: none;
+}
+
+#myBtn{
+  display: flex;
+  float: left;
+  margin-left: 800px;
+  z-index: 1;
+
 }
 
 .start-paragraph{
