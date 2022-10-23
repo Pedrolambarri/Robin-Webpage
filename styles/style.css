@@ -20,9 +20,6 @@ nav {
   padding: 20px 50px;
 }
 
-a:hover{
-  opacity: 0.5;
-}
 
 nav ul {
   float: right;
@@ -50,10 +47,11 @@ nav ul li a {
   height: 40px;
 }
 
-li a.active, li a:hover{
+ li a:hover{
   /*background:#525E75;*/
-  transition: .5s;
-  background-image: linear-gradient(black, red, yellow);
+  transition: 1s;
+  /* background-image: linear-gradient(black, red, yellow); */
+  background-color: red;
 }
 
 
